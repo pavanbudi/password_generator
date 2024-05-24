@@ -14,7 +14,7 @@ while i:
     else:
         pw=''.join(random.choice(ch) for _ in range(k))
         print("Generated Password:",pw)
-    chk=input("DO you want to generate another password(Yes/No):")
+    chk=input("Do you want to generate another password(Yes/No):")
     if chk.lower()!='yes':
         i=0
 
